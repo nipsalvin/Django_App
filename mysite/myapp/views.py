@@ -7,7 +7,7 @@ from .models import Book
 
 def index(requst):
     return HttpResponse ("""
-    Hello world
+    Hello world!
     """)
 
 def book_by_id(request, book_id):
